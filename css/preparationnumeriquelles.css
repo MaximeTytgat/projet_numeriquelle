@@ -40,11 +40,9 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
-
 .all_pictures {
     display: none;
 }
-
 @media screen and (max-width: 768px) {
     .first_picture img,
     .second_picture img {
