@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html, body {
+  background-color: white;
+  font-family: 'helvetica-neue', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+  color: #62D3A4;
+}
+
+.links {
+    align-items: center;
+    background-color: #F1F1F1;
+    display: none;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 15px;
+}    
+
+.line {
+  border: 1px solid #A7A7A7;
+  height: 1.5em;
+}
+
+.links li a {
+    width: 100%;
+}
+
+.burger {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #F1F1F1;
+}
+
+.burger img {
+    float: right;
+    width: 50px;
+    margin-right: 20px;
+}
+
+
+.sub_mobile {
+    background-color: #F1F1F1;
+    display: none;
+    text-align: center;
+}
+
+.sub_mobile li {
+    padding: 15px 0;
+}
+
+
+.top_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.top_nav li img {
+    width: 200px;
+}
+
+.top_nav li:first-child img {
+    margin: 15px 0 0 15px;
+}
+
+
+.top_nav .logo,
+.logo_mobile img {
+    width: 300px;
+}
+
+.logo {
+    display: none;
+}
+
+.logo_mobile {
+    text-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .burger,
+    .logo_mobile {
+        display: none;
+    }
+    .links {
+        display: flex;
+    }
+    .logo {
+        display: block;
+    }
+
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .burger,
+    .logo_mobile {
+        display: none;
+    }
+    .links {
+        display: flex;
+    }    
+    .logo {
+        display: block;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1201px) {
+
+    .burger,
+    .logo_mobile {
+        display: none;
+    }
+    .links {
+        display: flex;
+    }    
+    .logo {
+        display: block;
+    }
+
+    
+}
