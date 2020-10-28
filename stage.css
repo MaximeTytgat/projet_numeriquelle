@@ -1,6 +1,6 @@
 body {
-  margin: 5%;
-  max-width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 div {
@@ -24,3 +24,27 @@ li>p::before {
   right: 40px;
 }
 
+button {
+  background-color: #62D3A4;
+  color: white;
+  border-radius: 15px;
+  height: 80px;
+}
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 80%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  p {
+    font-size: 120%;
+  }
+
+  /* body {
+    margin: 20%;
+  } */
+
+}
