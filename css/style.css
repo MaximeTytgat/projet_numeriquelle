@@ -105,6 +105,48 @@ nav a:hover{
     text-align: center;
 }
 
+.presentation {
+    margin: 10px;
+    text-align: center;
+}
+
+.presentation img {
+    margin: 30px 0;
+}
+
+.presentation div {
+    text-align: left;
+    width: 290px;
+    margin: 0 auto;
+}
+
+.presentation p {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.presentation p:last-child {
+    font-size: 25px;
+}
+
+.presentation p span {
+    color: #702E92;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.presentation .row {
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    background-color: #62D3A4;
+}
+
+.display_none {
+    display: none;
+}
+
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
     .burger,
