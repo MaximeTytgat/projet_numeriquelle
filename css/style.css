@@ -18,6 +18,14 @@ nav a:hover{
   color: #62D3A4;
 }
 
+h2 {
+    margin: 25px 0;
+}
+
+h3 {
+    margin: 25px 0 0 0;
+}
+
 .links {
     align-items: center;
     background-color: #F1F1F1;
@@ -113,10 +121,14 @@ nav a:hover{
     margin: 30px 0;
 }
 
+.presentation div,
+.goal div:last-child {
+    margin: 0 auto;
+}
+
 .presentation div {
     text-align: left;
     width: 290px;
-    margin: 0 auto;
 }
 
 .presentation p {
@@ -136,6 +148,14 @@ nav a:hover{
 
 .presentation .row {
     width: 100px;
+}
+
+.goal .row {
+    width: 155px;
+    margin-bottom: 25px;
+}
+
+.row {
     height: 5px;
     display: inline-block;
     background-color: #62D3A4;
@@ -145,6 +165,75 @@ nav a:hover{
     display: none;
 }
 
+
+.goal > * {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.goal div div {
+    text-align: center;
+}
+
+.separation {
+    background-color: #62D3A4;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.separation p {
+    color: #ffffff;
+}
+
+.points > * {
+    margin: 10px 0;
+    position: relative;
+}
+
+.points > *::before {
+    content: "•";
+    color: #702E92;
+    font-size: 34px;
+    position: absolute;
+    top: -13px;
+    left: -20px;
+}
+
+
+.edition {
+    color: #702E92;
+    margin-bottom: 20px;
+}
+
+ul:last-child li {
+    padding: 5px 0;
+}
+
+ul:last-child span {
+    color: #06D6A0;
+    font-weight: bold; 
+}
+
+.workshop {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.workshop ul:first-child {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.workshop li {
+    width: 35%;
+    margin: 0 20px;
+}
+
+.workshop img {
+    width: 100%;
+}
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
@@ -160,6 +249,11 @@ nav a:hover{
     }
     .top_nav li img {
         width: 200px;
+    }
+
+    .workshop li {
+        width: 20%;
+        margin: 0;
     }
 
 
@@ -179,6 +273,11 @@ nav a:hover{
     }
     .top_nav li img {
         width: 200px;
+    }
+
+    .workshop li {
+        width: 20%;
+        margin: 0;
     }
 
 
@@ -201,5 +300,8 @@ nav a:hover{
         width: 200px;
     }
 
-    
+    .workshop li {
+        width: 20%;
+        margin: 0;
+    }
 }
