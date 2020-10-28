@@ -1,0 +1,26 @@
+body {
+  margin: 5%;
+  max-width: 80%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+p {
+  margin: 5% 10%;
+}
+
+li {
+  list-style: none;
+  
+}
+
+li>p::before {
+  content: url("img/Ellipse.png");
+  position: relative;
+  right: 40px;
+}
+
