@@ -1,0 +1,31 @@
+.content_legal_notice {
+padding-right: 30px;
+padding-left: 30px;
+}
+
+h1 {
+    font-size: 29px;
+    padding-top: 50px;
+}
+
+p {
+padding: 18px 0;
+}
+.list_legal_notice {
+padding: 18px 0;
+}
+
+span {
+    font-weight: bold;
+}
+.list_legal_notice li::before {
+    content: "•";
+    color: rgb(66, 33, 66);
+    padding-right: 5px;
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 38px;
+    }
+}
