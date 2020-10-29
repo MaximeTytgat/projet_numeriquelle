@@ -1,0 +1,6 @@
+
+.idea/
+.vscode/
+secret.yml
+database.yml
+.DS_Store
