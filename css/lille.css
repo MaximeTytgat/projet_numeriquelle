@@ -315,6 +315,25 @@ html, body {
   font-size: 15px;
 }
 
+footer {
+  background-color: #06D6A0;
+}
+footer a {
+  color: white;
+  font-size: 12px;
+}
+
+footer a:hover {
+  color: #702E92;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px){
 
 /******** Section 1 ********/
