@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+
+form {
+  margin-top: 30px;
+  padding: 2em;
+}
+
+form div + div {
+  margin-top: 3em;
+}
+
+label {
+  display: block;
+  width: 45px;
+}
+
+.radio_p {
+  
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #702E92;
+}
+
+
+
+textarea {
+  vertical-align: top;
+  height: 4em;
+}
+
+.button {
+  padding-left: 0px; 
+}
+
+
+
+footer {
+  background-color: #06D6A0;
+}
+footer a {
+  color: white;
+  font-size: 12px;
+}
+
+footer a:hover {
+  color: #702E92;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
