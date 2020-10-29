@@ -1,0 +1,910 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+/******** Section 1 ********/
+
+.content_title {
+  margin: 20px;
+}
+
+.ville {
+  font-size: 30px;
+}
+
+.rendez_vous {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.picture_pc {
+  padding: 20px;
+}
+
+.picture_pc_three,
+.picture_pc_two,
+.picture_pc_one{
+  width: 100%;
+  padding: 0px;
+}
+
+.advertissement {
+  background-color: #62D3A4;
+  padding: 20px;
+}
+
+.content_advertissement {
+  color: white;
+}
+
+
+
+.button_stage {
+  padding-top: 50px; 
+  margin-bottom: 20px;
+}
+
+.button_stage a {
+  background-color:white;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: #62D3A4;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/******** Section 2********/
+.content_partenaire {
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+
+.etape_1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.logo_partenaire {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/******** Section 3********/
+
+.content_programme {
+  padding: 20px;
+}
+
+.programme_title {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.programme_third_paragraphe,
+.programme_second_paragraphe,
+.programme_first_paragraphe {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.button_ambassadrices {
+  padding-top: 50px; 
+  margin-bottom: 20px;
+}
+
+.button_ambassadrices a {
+  background-color:#62D3A4;
+  border-radius: 10px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.programme_foor_paragraphe{
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.button_stage_two {
+  padding-top: 50px; 
+  margin-bottom: 20px;
+}
+
+.button_stage_two a {
+  background-color:#62D3A4;
+  border-radius: 10px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.college_lycee {
+  background-color: #F5F5F5;
+  padding: 20px;
+  line-height: 24px;
+}
+
+.college_content {
+  margin-top: 20px;
+}
+
+.college_title {
+
+}
+
+.hours_college {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.purple {
+  font-weight: bold;
+  color: #702E92;
+}
+
+.line_separation {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #62D3A4;
+  width: 30%;
+}
+
+.lycee {
+  margin-top: 60px;
+}
+
+.lycee_title {
+
+}
+
+.hours_lycee {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+/******** Section 4********/
+
+.etape_3 {
+  padding: 20px;
+}
+
+.content_etape_3 {
+
+}
+
+.etape_3_title {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.button_salon_virtual {
+  padding-top: 50px; 
+  margin-bottom: 50px;
+}
+
+.button_salon_virtual a {
+  background-color:#62D3A4;
+  border-radius: 10px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.line_salon {
+  width: 50%;
+  border: 2px solid #62D3A4;
+  margin-bottom: 50px;
+}
+
+.paragraphe_etape_3 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.color_pdf {
+  color: #62D3A4;
+}
+
+.paragraphe_visio {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/******** Section 5********/
+
+.etape_4 {
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+
+.etape_4_title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.pdf_satisfaction {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.button_questionnaire_pdf {
+  padding-top: 30px; 
+  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.button_questionnaire_pdf a {
+  background-color:#62D3A4;
+  border-radius: 10px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.send_questionnaire {
+
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.email {
+  font-weight: bold;
+}
+
+.line_questionnaire {
+  width: 50%;
+  border: 2px solid #62D3A4;
+  margin-bottom: 50px;
+}
+
+
+.formulaire_paragraphe {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button_questionnaire {
+  padding-top: 30px; 
+  margin-bottom: 20px;
+}
+
+.button_questionnaire a {
+  background-color:#62D3A4;
+  border-radius: 10px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+/******** Section 1 ********/
+
+.content_title {
+  margin: 40px;
+}
+
+.ville {
+  font-size: 45px;
+}
+
+.rendez_vous {
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.picture_pc {
+  padding: 30px;
+  display: flex;
+}
+
+.picture_pc_three,
+.picture_pc_two,
+.picture_pc_one{
+  width: 100%;
+  padding: 10px;
+}
+
+.advertissement {
+  background-color: #62D3A4;
+  padding: 40px;
+}
+
+.content_advertissement {
+  color: white;
+  font-size: 20px;
+}
+
+.advertissement_paragraphe {
+  line-height: 28px;
+}
+
+.button_stage {
+  padding-top: 50px; 
+  margin-bottom: 20px;
+}
+
+.button_stage a {
+  font-size: 18px;
+}
+
+/******** Section 2********/
+.content_partenaire {
+  padding: 40px;
+}
+
+.etape_1 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.logo_partenaire {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+/******** Section 3********/
+
+.content_programme {
+  padding: 40px;
+}
+
+.programme_title {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.programme_third_paragraphe,
+.programme_second_paragraphe,
+.programme_first_paragraphe {
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.button_ambassadrices {
+  padding-top: 50px; 
+  margin-bottom: 70px;
+}
+
+.button_stage_two a,
+.button_ambassadrices a {
+  font-size: 18px;
+}
+
+.programme_foor_paragraphe{
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.button_stage_two {
+  padding-top: 50px; 
+  margin-bottom: 70px;
+}
+
+
+.college_lycee {
+  background-color: #F5F5F5;
+  padding: 40px;
+  line-height: 28px;
+}
+
+.college_content {
+  margin-top: 20px;
+}
+
+.lycee_title,
+.college_title {
+  font-size: 25px;
+}
+
+.hours_college {
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.purple {
+  font-weight: bold;
+  color: #702E92;
+}
+
+.line_separation {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.lycee {
+  margin-top: 80px;
+}
+
+.hours_lycee {
+  margin-top: 60px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/******** Section 4********/
+
+.etape_3 {
+  padding: 40px;
+}
+
+
+.etape_3_title {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.button_salon_virtual {
+  padding-top: 70px; 
+  margin-bottom: 60px;
+}
+
+.button_salon_virtual a {
+  font-size: 18px;
+}
+
+.line_salon {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.paragraphe_etape_3 {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.color_pdf {
+  color: #62D3A4;
+}
+
+.paragraphe_visio {
+  margin-top: 40px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/******** Section 5********/
+
+.etape_4 {
+  padding: 40px;
+}
+
+.content_etape_4 {
+
+}
+
+.etape_4_title {
+  font-size: 25px;
+  margin-top: 40px;  
+  margin-bottom: 70px;
+}
+
+
+.pdf_satisfaction {
+  font-size: 20px;
+}
+
+.button_questionnaire_pdf {
+  padding-top: 50px; 
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.button_questionnaire_pdf a {
+  font-size: 18px;
+}
+
+.send_questionnaire {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.email {
+  font-weight: bold;
+}
+
+.formulaire_paragraphe {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button_questionnaire {
+  padding-top: 50px; 
+  margin-bottom: 70px;
+}
+
+.button_questionnaire a {
+  font-size: 18px;
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+/******** Section 1 ********/
+  
+.content_title {
+  margin: 60px;
+}
+  
+.rendez_vous {
+  padding-top: 50px;
+}
+  
+.picture_pc {
+  padding: 50px;
+  display: flex;
+}
+
+.advertissement {
+  padding: 10px;
+  width: 100%;
+}
+
+.button_stage {
+  padding-top: 60px; 
+  margin-bottom: 30px;
+}
+  
+.button_stage a {
+  font-size: 20px;
+}
+  
+/******** Section 2********/
+.content_partenaire {
+  padding: 60px;
+}
+  
+.etape_1 {
+  font-size: 25px;
+}
+  
+.logo_partenaire {
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+  
+/******** Section 3********/
+  
+.content_programme {
+  padding: 60px;
+}
+  
+.programme_third_paragraphe,
+.programme_second_paragraphe,
+.programme_first_paragraphe {
+  margin-top: 60px;
+}
+  
+.button_ambassadrices {
+  padding-top: 60px; 
+  margin-bottom: 90px;
+}
+  
+.button_stage_two a,
+.button_ambassadrices a {
+  font-size: 20px;
+}
+  
+.programme_foor_paragraphe{
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 28px;
+}
+  
+.button_stage_two {
+  padding-top: 60px; 
+  margin-bottom: 70px;
+}
+  
+  
+.college_lycee {
+  padding: 60px;
+  display: flex;
+}
+  
+.college_content {
+  margin-top: 20px;
+  width: 50%;
+  margin-right: 30px;
+}
+  
+.hours_college {
+  font-size: 20px;
+  line-height: 28px;
+}
+  
+.purple {
+  font-weight: bold;
+  color: #702E92;
+}
+  
+.line_separation {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+  
+.lycee {
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 160px;
+}
+  
+.hours_lycee {
+  font-size: 20px;
+  line-height: 28px;
+}
+  
+  /******** Section 4********/
+  
+.etape_3 {
+  padding: 60px;
+}
+  
+  
+.button_salon_virtual {
+  padding-top: 90px; 
+  margin-bottom: 90px;
+}
+  
+.button_salon_virtual a {
+  font-size: 20px;
+}
+  
+.line_salon {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  width: 50%;
+}
+  
+
+  
+  /******** Section 5********/
+  
+.etape_4 {
+  padding: 60px;
+}
+  
+.content_etape_4 {
+  text-align: center;
+}
+  
+.etape_4_title {
+  margin-top: 40px;  
+  margin-bottom: 70px;
+}
+  
+.button_questionnaire_pdf a {
+  font-size: 20px;
+}
+
+.line_questionnaire {
+  width: 100%;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+  
+.button_questionnaire a {
+  font-size: 20px;
+}
+  
+}
+
+
+@media screen and (min-width: 1200px){
+
+/******** Section 1 ********/
+  
+.content_title {
+  margin: 50px;
+}
+  
+.rendez_vous {
+  padding-top: 50px;
+}
+  
+.picture_pc {
+  padding: 40px;
+  display: flex;
+}
+
+.advertissement {
+  padding: 60px;
+}
+
+.button_stage {
+  padding-top: 60px; 
+  margin-bottom: 30px;
+}
+  
+.button_stage a {
+  font-size: 20px;
+}
+  
+/******** Section 2********/
+.content_partenaire {
+  padding: 60px;
+}
+  
+.etape_1 {
+  font-size: 25px;
+}
+  
+.logo_partenaire {
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+  
+/******** Section 3********/
+  
+.content_programme {
+  padding: 60px;
+}
+  
+.programme_third_paragraphe,
+.programme_second_paragraphe,
+.programme_first_paragraphe {
+  margin-top: 60px;
+}
+  
+.button_ambassadrices {
+  padding-top: 60px; 
+  margin-bottom: 90px;
+}
+  
+.button_stage_two a,
+.button_ambassadrices a {
+  font-size: 20px;
+}
+  
+.programme_foor_paragraphe{
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 28px;
+}
+  
+.button_stage_two {
+  padding-top: 60px; 
+  margin-bottom: 70px;
+}
+  
+  
+.college_lycee {
+  padding: 60px;
+  display: flex;
+}
+  
+.college_content {
+  margin-top: 20px;
+  width: 50%;
+  margin-right: 30px;
+}
+  
+.hours_college {
+  font-size: 20px;
+  line-height: 28px;
+}
+  
+.purple {
+  font-weight: bold;
+  color: #702E92;
+}
+  
+.line_separation {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+  
+.lycee {
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 160px;
+}
+  
+.hours_lycee {
+  font-size: 20px;
+  line-height: 28px;
+}
+  
+  /******** Section 4********/
+  
+.etape_3 {
+  padding: 60px;
+}
+  
+  
+.button_salon_virtual {
+  padding-top: 90px; 
+  margin-bottom: 90px;
+}
+  
+.button_salon_virtual a {
+  font-size: 20px;
+}
+  
+.line_salon {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  width: 50%;
+}
+  
+
+  
+  /******** Section 5********/
+  
+.etape_4 {
+  padding: 60px;
+}
+  
+.content_etape_4 {
+  text-align: center;
+}
+  
+.etape_4_title {
+  margin-top: 40px;  
+  margin-bottom: 70px;
+}
+  
+.button_questionnaire_pdf a {
+  font-size: 20px;
+}
+
+.line_questionnaire {
+  width: 100%;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+  
+.button_questionnaire a {
+  font-size: 20px;
+}
+  
+}
+
+
+
+
