@@ -3,6 +3,14 @@ body {
   max-width: 1200px;
 }
 
+form {
+  margin-left: 120px;
+}
+
+h2 {
+  margin: 100px 10px 50px 10px;
+}
+
 div {
   display: flex;
   justify-content: center;
@@ -28,7 +36,13 @@ button {
   background-color: #62D3A4;
   color: white;
   border-radius: 15px;
-  height: 80px;
+  min-width: 160px;
+  min-height: 80px;
+  
+}
+
+.button p {
+  margin-left: 0;
 }
 
 @media screen and (max-width: 700px) {
