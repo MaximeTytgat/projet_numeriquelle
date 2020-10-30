@@ -1,10 +1,104 @@
-body {
-  margin: 0 5%;
-  
-}
+body {}
 
-.flexBox {
+main {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
+p {
+  margin: 20px 5px;
+}
+
+li p {
+  margin: 0;
+}
+
+p, li {
+  font-size: 130%;
+}
+h1 {
+  font-size: 175%;
+}
+footer a {
+  font-size: 130%;
+}
+
+.wetransfer {
+  font-weight: bold;
+  text-align: center;
+}
+
+.ulBody {
+  margin-left: 80px;
+  line-height: 1.8em;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  p, li {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 140%;
+    text-align: center;
+  }
+  footer a {
+    font-size: 100%;
+  }
+  .ulBody {
+    margin-left: 50px;
+    line-height: 1.5em;
+  }
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  p, li {
+    font-size: 110%;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  footer a {
+    font-size: 110%;
+  }
+  .ulBody {
+    margin-left: 60px;
+    line-height: 1.6em;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  p, li {
+    font-size: 120%;
+  }
+  h1 {
+    font-size: 160%;
+  }
+  footer a {
+    font-size: 120%;
+  }
+  .ulBody {
+    margin-left: 70px;
+    line-height: 1.7em;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  p, li {
+    font-size: 125%;
+  }
+  h1 {
+    font-size: 170%;
+  }
+  footer a {
+    font-size: 125%;
+  }
+  .ulBody {
+    margin-left: 80px;
+    line-height: 1.8em;
+  }
+}
