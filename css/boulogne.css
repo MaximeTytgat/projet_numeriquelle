@@ -321,14 +321,6 @@ footer ul {
   line-height: 28px;
 }
 
-.picture_pc_three,
-.picture_pc_two,
-.picture_pc_one{
-  width: 33%;
-  padding: 10px;
-}  
-}
-
 .button_stage {
   padding-top: 50px; 
   margin-bottom: 20px;
