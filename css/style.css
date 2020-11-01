@@ -17,20 +17,21 @@ a {
 nav a:hover{
   color: #62D3A4;
 }
-
+/* 
 h2 {
     margin: 25px 0;
 }
 
 h3 {
     margin: 25px 0 0 0;
-}
+} */
 
 .links {
     align-items: center;
     background-color: #F1F1F1;
     display: none;
     margin-top: 10px;
+    padding: 0 10%;
 }
 
 .links .line {
@@ -98,6 +99,13 @@ h3 {
     margin: 15px 0 0 15px;
 }
 
+.top_nav .logo_container {
+    display: flex;
+}
+
+.top_nav a {
+    margin: auto 0;
+}
 
 .top_nav .logo,
 .logo_mobile img {
@@ -119,6 +127,8 @@ h3 {
 
 .presentation span {
     color: #702E92;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .presentation img {
@@ -313,6 +323,10 @@ footer ul {
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
+    h1 {
+        width: 290px;
+        margin: 0 auto;
+    }
 
     h2 {
         font-size: 28px;
@@ -325,6 +339,10 @@ footer ul {
     p,
     li {
         font-size: 18px;
+    }
+
+    nav li {
+        font-size: 16px;
     }
 
     .points li::before {
@@ -355,9 +373,7 @@ footer ul {
     .presentation .container .display_none {
         display: block;
     }
-    .top_nav li img {
-        width: 200px;
-    }
+    
 
     .workshop li {
         width: 20%;
@@ -416,12 +432,21 @@ footer ul {
         font-size: 18px;
     }
 
+    .container img {
+        width: 100%;
+    }
+
 
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
-   
+    h1 {
+        font-size: 30px;
+        width: 290px;
+        margin: 0 auto;
+    }
+    
 
     h2 {
         font-size: 28px;
@@ -434,6 +459,18 @@ footer ul {
     p,
     li {
         font-size: 18px;
+    }
+
+    .region {
+        margin-top: 15px;
+    }
+
+    .presentation span {
+        font-size: 24px;
+    }
+
+    .container img {
+        width: 100%;
     }
 
     .points li::before {
@@ -464,8 +501,9 @@ footer ul {
     .presentation .container .display_none {
         display: block;
     }
-    .top_nav li img {
-        width: 200px;
+
+    .top_nav .logo {
+        width: 350px;
     }
 
     .workshop li {
@@ -530,6 +568,13 @@ footer ul {
 
 @media screen and (min-width: 1201px) {
 
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        width: 340px;
+        margin: 0 auto;
+    }
+
     h2 {
         font-size: 34px;
     }
@@ -540,16 +585,20 @@ footer ul {
 
     p,
     li {
-        font-size: 24px;
+        font-size: 20px;
     }
 
+    .presentation .region {
+        width: 340px;
+        margin-top: 20px;
+    }
 
     .links li {
         padding: 20px 0;
     }
 
     .links li ul {
-        top: 65px;
+        top: 60px;
     }
 
     .points li::before {
@@ -585,9 +634,6 @@ footer ul {
     }
     .presentation .container .display_none{
         width: 90%;
-    }
-    .top_nav li img {
-        width: 200px;
     }
 
     .workshop li {
@@ -648,18 +694,21 @@ footer ul {
         width: 500px;
     }
 
+    
 
     .top_nav a .logo {
-        width: 400  px;
+        width: 400px;
     }
 
     .top_nav li img {
-        width: 275px;
+        width: 200px;
     }
 
-    h1 {
-        font-size: 36px;
-        margin-bottom: 20px;
+    
+
+    .presentation span {
+        font-size: 26px;
+        font-weight: normal;
     }
 
     .workshop h2,
@@ -670,7 +719,4 @@ footer ul {
     footer a {
         font-size: 24px;
     }
-}
-
-
 }
