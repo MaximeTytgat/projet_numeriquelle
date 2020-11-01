@@ -1,0 +1,64 @@
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+form {
+  margin-left: 120px;
+}
+
+h2 {
+  margin: 100px 10px 50px 10px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+p {
+  margin: 5% 10%;
+}
+
+li {
+  list-style: none;
+  
+}
+
+li>p::before {
+  content: url("img/Ellipse.png");
+  position: relative;
+  right: 40px;
+}
+
+button {
+  background-color: #702E92;
+  color: white;
+  border-radius: 15px;
+  min-width: 160px;
+  min-height: 80px;
+  
+}
+
+.button p {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 80%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  p {
+    font-size: 120%;
+  }
+
+  /* body {
+    margin: 20%;
+  } */
+
+}
