@@ -15,6 +15,7 @@ html, body {
 }
 .ville {
   font-size: 30px;
+  color: #702E92
 }
 .rendez_vous {
   font-size: 18px;
@@ -183,6 +184,7 @@ html, body {
 }
 .color_pdf {
   color: #62D3A4;
+  font-weight: bold;
 }
 .paragraphe_visio {
   margin-top: 20px;
