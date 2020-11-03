@@ -29,7 +29,7 @@ html, body {
 .picture_pc_three,
 .picture_pc_two,
 .picture_pc_one{
-  width: 33%;
+  width: 100%;
   padding: 0px;
 }
 
@@ -278,10 +278,7 @@ footer ul {
 }
 @media screen and (min-width: 768px) {
 .content_title {
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 60px;
 }
 .ville {
   font-size: 45px;
@@ -485,6 +482,7 @@ footer ul {
 .button_questionnaire a {
   font-size: 18px;
 }
+}
 @media screen and (min-width: 1200px){
  
 .college_lycee {
@@ -524,5 +522,8 @@ footer ul {
   font-size: 20px;
   line-height: 28px;
 }
-  
+.picture_content {
+  padding-left: 60px;
+  padding-right: 60px;
+}
 }
