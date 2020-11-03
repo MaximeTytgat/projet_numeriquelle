@@ -27,6 +27,7 @@ padding: 30px 0;
 h1 {
     font-size: 29px;
     padding-bottom: 30px;
+    color: #702E92 ;
 }
 .text p {
     font-size: 17px;
@@ -34,8 +35,8 @@ h1 {
    
 }
 button {
-    color: #702E92;
-    background-color: #62d3a4;
+    color:  white;
+    background-color:#702E92;
     padding: 10px 10px;
     border-radius: 10px;
     cursor: pointer;
