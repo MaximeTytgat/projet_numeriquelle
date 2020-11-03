@@ -28,9 +28,15 @@ html, body {
 }
 .picture_pc_three,
 .picture_pc_two,
+.picture_pc_one{
+  width: 33%;
+  padding: 0px;
+}
+
 .picture_pc_one {
   width: 100%
 }
+
 .advertissement {
   background-color: #62D3A4;
   padding: 20px;
@@ -311,6 +317,7 @@ footer ul {
 .advertissement_paragraphe {
   line-height: 28px;
 }
+
 .button_stage {
   padding-top: 50px; 
   margin-bottom: 20px;
