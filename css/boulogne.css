@@ -132,8 +132,6 @@ html, body {
 .college_content {
   margin-top: 20px;
 }
-.college_title {
-}
 .hours_college {
   margin-top: 40px;
   font-size: 18px;
@@ -151,8 +149,6 @@ html, body {
 .lycee {
   margin-top: 60px;
 }
-.lycee_title {
-}
 .hours_lycee {
   margin-top: 40px;
   font-size: 18px;
@@ -160,8 +156,6 @@ html, body {
 /******** Section 4********/
 .etape_3 {
   padding: 20px;
-}
-.content_etape_3 {
 }
 .etape_3_title {
   font-size: 20px;
@@ -487,6 +481,7 @@ footer ul {
 }
 .button_questionnaire a {
   font-size: 18px;
+}
 }
 @media screen and (min-width: 1200px){
  
