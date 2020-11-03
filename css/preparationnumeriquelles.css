@@ -42,6 +42,7 @@ button {
     text-decoration: none;
     border: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 .all_pictures {
     display: none;
