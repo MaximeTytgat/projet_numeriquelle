@@ -272,10 +272,7 @@ footer ul {
 }
 @media screen and (min-width: 768px) {
 .content_title {
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 60px;
 }
 .ville {
   font-size: 45px;
@@ -478,6 +475,8 @@ footer ul {
 .button_questionnaire a {
   font-size: 18px;
 }
+}
+
 @media screen and (min-width: 1200px){
  
 .college_lycee {
