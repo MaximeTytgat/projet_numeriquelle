@@ -18,12 +18,20 @@ nav a:hover{
   color: #62D3A4;
 }
 
+h2 {
+    margin: 25px 0;
+}
+
+h3 {
+    margin: 25px 0 0 0;
+}
+
 .links {
     align-items: center;
     background-color: #F1F1F1;
     display: none;
     margin-top: 10px;
-}    
+}
 
 .links .line {
   border: 1px solid #A7A7A7;
@@ -104,20 +112,308 @@ nav a:hover{
     text-align: center;
 }
 
+.presentation {
+    margin: 10px 50px; 
+    text-align: center;
+}
+
+.presentation span {
+    color: #702E92;
+}
+
+.presentation img {
+    margin: 30px 0;
+}
+
+.presentation div,
+.goal div:last-child {
+    margin: 0 auto;
+}
+
+.presentation div {
+    text-align: left;
+    width: 290px;
+}
+
+.presentation p {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.presentation p:last-child {
+    font-size: 25px;
+}
+
+.presentation p span {
+    color: #702E92;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.presentation .row {
+    width: 100px;
+}
+
+.goal .row {
+    width: 155px;
+    margin-bottom: 25px;
+}
+
+.row {
+    height: 5px;
+    width: 100px;
+    display: inline-block;
+    background-color: #62D3A4;
+}
+
+.display_none {
+    display: none;
+}
+
+
+.goal > * {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.separation {
+    background-color: #62D3A4;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    width: initial;
+}
+
+.separation p {
+    color: #ffffff;
+}
+
+.points > * {
+    margin: 10px 0;
+    position: relative;
+}
+
+.points > *::before {
+    content: "•";
+    color: #702E92;
+    font-size: 34px;
+    position: absolute;
+    top: -13px;
+    left: -20px;
+}
+
+
+.edition {
+    color: #702E92;
+    margin-bottom: 20px;
+}
+
+.goal ul:last-child li {
+    padding: 5px 0;
+}
+
+.goal ul:last-child span {
+    color: #06D6A0;
+    font-weight: bold;
+}
+
+.img img {
+    width: 90%;
+    margin: 30px 0; 
+}
+
+.img {
+    text-align: center;
+}
+
+.workshop {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.workshop h2 {
+    text-align: center;
+}
+
+.img_container li {
+    width: 40%;
+    margin: 20px 0;
+}
+
+.workshop img {
+    width: 100%;
+}
+
+.stats ul {
+    font-weight: bold;
+    text-align: center;
+}
+
+.stats ul span {
+    font-size: 100px;
+    color: #62D3A4;
+    font-weight: normal;
+}
+
+.organisation img {
+    width: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+.organisation li:first-child { 
+    margin-top: 43px;
+    height: 108px;
+}
+
+.organisation li {
+    margin-left: 50px;
+}
+
+.organisation li:nth-child(2n) {
+    height: 112px;
+}
+.organisation li:nth-child(3n) {
+    height: 93px;
+}
+
+.partners {
+    text-align: center;
+}
+
+.partners img {
+    width: 95%;
+}
+
+footer {
+    background-color: #06D6A0;
+}
+footer a {
+    color: white;
+    font-size: 12px;
+}
+
+footer a:hover {
+    color: #702E92;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p,
+    li {
+        font-size: 18px;
+    }
+
+    .points li::before {
+        font-size: 46px;
+        left: -28px;
+    }
+
+
     .burger,
-    .logo_mobile {
+    .logo_mobile,
+    .presentation .container .mob {
         display: none;
     }
-    .links {
+    .links,
+    .presentation .container {
         display: flex;
     }
-    .logo {
+    .presentation .container {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .presentation .container > div {
+        width: 100%;
+    }
+    .logo,
+    .presentation .container .display_none {
         display: block;
     }
     .top_nav li img {
         width: 200px;
+    }
+
+    .workshop li {
+        width: 20%;
+        margin: 0;
+    }
+    
+    .objectives {
+        display: flex;
+        align-items: center;
+    }
+    .objectives img {
+        width: initial;
+        margin: 0;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .decription {
+        width: 340px;
+    }
+
+    .stats ul li  {
+        width: initial;
+    }
+
+    .stats ul span {
+        font-size: 80px;
+    }
+    
+    .organisation img {
+        width: 70px;
+    }
+    
+
+    .organisation li:first-child { 
+        margin-top: 65px;
+        height: 185px;
+    }
+    
+    .organisation li {
+        width: 90%;
+        margin-left: 90px;
+    }
+    
+    .organisation li:nth-child(2n) {
+        height: 203px;
+    }
+    .organisation li:nth-child(3n) {
+        height: 160px;
+    }
+
+    footer a {
+        font-size: 18px;
     }
 
 
@@ -125,39 +421,256 @@ nav a:hover{
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
+   
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p,
+    li {
+        font-size: 18px;
+    }
+
+    .points li::before {
+        font-size: 46px;
+        left: -28px;
+    }
+
+
     .burger,
-    .logo_mobile {
+    .logo_mobile,
+    .presentation .container .mob {
         display: none;
     }
-    .links {
+    .links,
+    .presentation .container {
         display: flex;
-    }    
-    .logo {
+    }
+    .presentation .container {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .presentation .container > div {
+        width: 100%;
+    }
+    .logo,
+    .presentation .container .display_none {
         display: block;
     }
     .top_nav li img {
         width: 200px;
     }
 
+    .workshop li {
+        width: 20%;
+        margin: 0;
+    }
+    
+    .objectives {
+        display: flex;
+        align-items: center;
+    }
+    .objectives img {
+        width: initial;
+        margin: 0;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .decription {
+        width: 340px;
+    }
+
+    .stats ul li  {
+        width: initial;
+    }
+
+    .stats ul span {
+        font-size: 80px;
+    }
+    
+    .organisation img {
+        width: 70px;
+    }
+    
+
+    .organisation li:first-child { 
+        margin-top: 65px;
+        height: 185px;
+    }
+    
+    .organisation li {
+        width: 700px;
+        margin-left: 90px;
+    }
+    
+    .organisation li:nth-child(2n) {
+        height: 203px;
+    }
+    .organisation li:nth-child(3n) {
+        height: 160px;
+    }
+
+    footer a {
+        font-size: 18px;
+    }    
 
 }
 
 
 @media screen and (min-width: 1201px) {
 
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p,
+    li {
+        font-size: 24px;
+    }
+
+
+    .links li {
+        padding: 20px 0;
+    }
+
+    .links li ul {
+        top: 65px;
+    }
+
+    .points li::before {
+        font-size: 46px;
+        left: -28px;
+    }
+
+
     .burger,
-    .logo_mobile {
+    .logo_mobile,
+    .presentation .container .mob {
         display: none;
     }
-    .links {
+
+    .links,
+    .presentation .container {
         display: flex;
-    }    
-    .logo {
+    }
+
+    .presentation .container {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .presentation .container > div {
+        width: 100%;
+    }
+    .logo,
+    .presentation .container .display_none {
         display: block;
+    }
+    .presentation .container .display_none{
+        width: 90%;
     }
     .top_nav li img {
         width: 200px;
     }
 
+    .workshop li {
+        width: 20%;
+        margin: 0;
+    }
     
+    .objectives {
+        display: flex;
+        align-items: center;
+    }
+    .objectives img {
+        width: initial;
+        margin: 0;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .decription {
+        width: 450px;
+    }
+
+    .stats ul li  {
+        width: initial;
+    }
+
+    .stats ul span {
+        font-size: 80px;
+    }
+    
+    .organisation img {
+        width: 70px;
+    }
+    
+
+    .organisation li:first-child { 
+        margin-top: 110px;
+        height: 185px;
+    }
+    
+    .organisation li {
+        width: 700px;
+        margin-left: 90px;
+    }
+    
+    .organisation li:nth-child(2n) {
+        height: 203px;
+    }
+    .organisation li:nth-child(3n) {
+        height: 160px;
+    }
+
+    .goal .objectives div:last-child,
+    .provide .points {
+        width: 500px;
+    }
+
+
+    .top_nav a .logo {
+        width: 400  px;
+    }
+
+    .top_nav li img {
+        width: 275px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .workshop h2,
+    .organisation h3 {
+        margin: 50px 0;
+    }
+
+    footer a {
+        font-size: 24px;
+    }
+}
+
+
 }
