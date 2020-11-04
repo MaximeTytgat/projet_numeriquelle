@@ -17,13 +17,20 @@ h1 {
     color: #702E92;
 }
 
-.first_question {
-    margin-bottom: 50px;
-}
-
 .content_questionnaire h2 {
     font-size: 12px;
-    padding-top: 5px;
+}
+.content_questionnaire ul {
+    padding-bottom: 30px;
+}
+.seventh_question {
+    padding-bottom: 30px;
+}
+.eighth_question {
+    padding-bottom: 30px;
+}
+.nineth_question {
+    padding-bottom: 30px;
 }
 .tenth_question {
     padding-bottom: 30px;

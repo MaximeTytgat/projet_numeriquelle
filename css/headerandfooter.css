@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+  color: #62D3A4;
+}
+
+.links {
+    align-items: center;
+    background-color: #F1F1F1;
+    display: none;
+    margin-top: 10px;
+    padding: 0 10%;
+}
+
+.links .line {
+  border: 1px solid #A7A7A7;
+  height: 1.5em;
+  flex: none;
+  padding: 0;
+}
+
+.links li {
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+}
+
+.links li ul {
+    position: absolute;
+}
+
+.links li ul,
+.sub_mobile li ul {
+    display: none;
+    top: 37px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.burger {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #F1F1F1;
+}
+
+.burger img {
+    float: right;
+    width: 50px;
+    margin-right: 20px;
+}
+
+
+.sub_mobile {
+    background-color: #F1F1F1;
+    display: none;
+    text-align: center;
+}
+
+.sub_mobile li {
+    padding: 15px 0;
+}
+
+
+.top_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.top_nav li img {
+    width: 150px;
+}
+
+.top_nav li:first-child img {
+    margin: 15px 0 0 15px;
+}
+
+.top_nav .logo_container {
+    display: flex;
+}
+
+.top_nav a {
+    margin: auto 0;
+}
+
+.top_nav .logo,
+.logo_mobile img {
+    width: 300px;
+}
+
+.stats {
+    margin-top: 50px;
+}
+
+.logo {
+    display: none;
+}
+
+.logo_mobile {
+    text-align: center;
+}
+
+footer {
+    background-color: #06D6A0;
+}
+footer a {
+    color: white;
+    font-size: 12px;
+}
+
+footer a:hover {
+    color: #702E92;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p,
+    li {
+        font-size: 18px;
+    }
+
+    nav li {
+        font-size: 16px;
+    }
+
+    .points li::before {
+        font-size: 46px;
+        top: -11px;
+        left: -28px;
+    }
+
+
+    .burger,
+    .logo_mobile,
+    .presentation .container .mob {
+        display: none;
+    }
+    .links,
+    .presentation .container {
+        display: flex;
+    }
+    .presentation .container {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .presentation .container > div {
+        width: 100%;
+    }
+    .logo,
+    .presentation .container .display_none {
+        display: block;
+    }
+
+    .workshop li {
+        width: 20%;
+        margin: 0;
+    }
+    
+    .objectives {
+        display: flex;
+        align-items: center;
+    }
+    .objectives img {
+        width: initial;
+        margin: 0;
+    }
+
+    .goal > * {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .goal .separation {
+        width: initial;
+        margin-top: 20px;
+    }
+  
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex > * {
+        width: 100%;
+    }
+
+    .flex:first-child * {
+        max-width: 355px;
+    }
+
+    .provide .flex .img {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    .provide {
+        margin-top: 70px;
+    }
+
+    .provide .flex .img img {
+        width: 100%;
+        max-width: none;
+    }
+    .provide:first-child {
+        margin-left: 100px;
+    }
+
+    .decription {
+        width: 340px;
+    }
+
+    .stats ul li  {
+        width: initial;
+    }
+
+    .stats ul span {
+        font-size: 80px;
+    }
+    
+    .organisation img {
+        width: 70px;
+    }
+    
+    .objectives > div {
+        width: 100%;
+    }
+
+    .organisation li:first-child { 
+        margin-top: 65px;
+        height: 185px;
+    }
+    
+    .organisation li {
+        width: 90%;
+        margin-left: 90px;
+    }
+    
+    .organisation li:nth-child(2n) {
+        height: 203px;
+    }
+    .organisation li:nth-child(3n) {
+        height: 160px;
+    }
+
+    footer a {
+        font-size: 18px;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    h1 {
+        font-size: 30px;
+    }
+    
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p,
+    li {
+        font-size: 18px;
+    }
+
+    .region {
+        margin-top: 15px;
+    }
+
+    .presentation span {
+        font-size: 24px;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    .points li::before {
+        font-size: 46px;
+        top: -11px;
+        left: -28px;
+    }
+
+
+    .burger,
+    .logo_mobile,
+    .presentation .container .mob {
+        display: none;
+    }
+    .links,
+    .presentation .container {
+        display: flex;
+    }
+    .presentation .container {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .presentation .container > div {
+        width: 100%;
+    }
+    .logo,
+    .presentation .container .display_none {
+        display: block;
+    }
+
+    .objectives > div {
+        width: 100%;
+    }
+
+    .top_nav .logo {
+        width: 350px;
+    }
+
+    .workshop li {
+        width: 20%;
+        margin: 0;
+    }
+    
+    .objectives {
+        display: flex;
+        align-items: center;
+    }
+    .objectives img {
+        width: initial;
+        margin: 0;
+    }
+
+
+    .goal > * {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .goal .separation {
+        width: initial;
+        margin-top: 20px;
+    }
+  
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .flex > * {
+        width: 100%;
+    }
+
+    .flex:first-child * {
+        max-width: 355px;
+    }
+
+    .provide .flex .img {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    .provide .flex .img img {
+        width: 100%;
+        max-width: none;
+    }
+
+    .decription {
+        width: 340px;
+    }
+
+    .stats ul li  {
+        width: initial;
+    }
+
+    .stats ul span {
+        font-size: 80px;
+    }
+    
+    .provide {
+        margin-top: 70px;
+    }
+
+    .organisation img {
+        width: 70px;
+    }
+    
+
+    .organisation li:first-child { 
+        margin-top: 65px;
+        height: 185px;
+    }
+    
+    .organisation li {
+        width: 700px;
+        margin-left: 90px;
+    }
+    
+    .organisation li:nth-child(2n) {
+        height: 203px;
+    }
+    .organisation li:nth-child(3n) {
+        height: 160px;
+    }
+
+    footer a {
+        font-size: 18px;
+    }    
+
+}
+
+
+@media screen and (min-width: 1201px) {
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p,
+    li {
+        font-size: 20px;
+    }
+
+    .presentation .region {
+        width: 340px;
+        margin-top: 20px;
+    }
+
+    .links li {
+        padding: 20px 0;
+    }
+
+    .links li ul {
+        top: 60px;
+    }
+
+    .points li::before {
+        font-size: 46px;
+        top: -11px;
+        left: -28px;
+    }
+
+    .goal .row {
+        width: 150px;
+        margin: 10px 0 25px 0;
+    }  
+
+    .burger,
+    .logo_mobile,
+    .presentation .container .mob {
+        display: none;
+    }
+
+    .links,
+    .presentation .container {
+        display: flex;
+    }
+
+    .flex > * {
+        width: 100%;
+    }
+
+    .flex:first-child div:first-child > *  {
+        max-width: 400px;
+    }
+
+    .presentation .container {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .presentation .container > div {
+        width: 100%;
+    }
+    .logo,
+    .presentation .container .display_none {
+        display: block;
+    }
+    .presentation .container .display_none{
+        width: 90%;
+    }
+
+    .objectives > div {
+        width: 100%;
+    }
+    
+    .workshop li {
+        width: 20%;
+        margin: 0;
+    }
+    
+    .objectives {
+        display: flex;
+        align-items: center;
+    }
+    .objectives img {
+        width: initial;
+        margin: 0;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .decription {
+        width: 450px;
+    }
+
+    .stats ul li  {
+        width: initial;
+    }
+
+    .stats ul span {
+        font-size: 80px;
+    }
+    
+    .organisation img {
+        width: 70px;
+    }
+    
+
+    .organisation li:first-child { 
+        margin-top: 110px;
+        height: 185px;
+    }
+    
+    .organisation li {
+        width: 700px;
+        margin-left: 90px;
+    }
+    
+    .organisation li:nth-child(2n) {
+        height: 203px;
+    }
+    .organisation li:nth-child(3n) {
+        height: 160px;
+    }
+    .objectives > div {
+        width: 100%;
+    }
+
+    
+
+    .top_nav a .logo {
+        width: 400px;
+    }
+
+    .top_nav li img {
+        width: 200px;
+    }
+
+    
+
+    .presentation span {
+        font-size: 26px;
+        font-weight: normal;
+    }
+
+    .workshop h2,
+    .organisation h3 {
+        margin: 50px 0;
+    }
+
+    footer a {
+        font-size: 24px;
+    }
+}
