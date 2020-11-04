@@ -1,9 +1,7 @@
-body {}
+body {
+}
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+.flexBox {
   margin: 60px;
 }
 
@@ -15,7 +13,7 @@ li p {
   margin: 0;
 }
 
-p, li {
+p {
   font-size: 130%;
 }
 h1 {
@@ -31,10 +29,6 @@ footer a {
   text-align: center;
 }
 
-.ulBody {
-  margin-left: 80px;
-  line-height: 1.8em;
-}
 
 
 @media screen and (max-width: 768px) {
@@ -90,12 +84,7 @@ footer a {
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
-  p, li {
-    font-size: 125%;
-  }
-  h1 {
-    font-size: 170%;
-  }
+
   footer a {
     font-size: 125%;
   }
