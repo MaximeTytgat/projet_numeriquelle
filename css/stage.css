@@ -3,12 +3,16 @@ body {
   /* max-width: 1200px; */
 }
 
+.test {
+  margin-top: 60px;
+}
+
 form {
   margin-left: 120px;
 }
 
 h2 {
-  margin: 100px 10px 50px 10px;
+  margin: 100px 0px 0px 0px;
 }
 
 div {
@@ -18,7 +22,7 @@ div {
 }
 
 p {
-  margin: 5% 10%;
+  margin: 30px 10%;
 }
  
 li>p::before {
@@ -32,10 +36,15 @@ li>p::before {
 button {
   background-color: #702E92;
   color: white;
-  border-radius: 15px;
-  min-width: 160px;
-  min-height: 80px;
-  
+  border-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.button_link {
+  margin-top: 30px;
+  margin-right: 20px;
 }
 
 .button p {
