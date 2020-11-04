@@ -15,6 +15,7 @@ html, body {
 }
 .ville {
   font-size: 30px;
+  color: #702E92
 }
 .rendez_vous {
   font-size: 18px;
@@ -28,7 +29,7 @@ html, body {
 .picture_pc_three,
 .picture_pc_two,
 .picture_pc_one{
-  width: 33%;
+  width: 100%;
   padding: 0px;
 }
 
@@ -93,7 +94,7 @@ html, body {
   margin-bottom: 20px;
 }
 .button_ambassadrices a {
-  background-color:#62D3A4;
+  background-color:#702E92;
   border-radius: 10px;
   padding: 10px;
   padding-right: 30px;
@@ -113,7 +114,7 @@ html, body {
   margin-bottom: 20px;
 }
 .button_stage_two a {
-  background-color:#62D3A4;
+  background-color: #702E92;
   border-radius: 10px;
   padding: 10px;
   padding-right: 30px;
@@ -140,12 +141,7 @@ html, body {
   font-weight: bold;
   color: #702E92;
 }
-.line_separation {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 2px solid #62D3A4;
-  width: 30%;
-}
+
 .lycee {
   margin-top: 60px;
 }
@@ -166,7 +162,7 @@ html, body {
   margin-bottom: 50px;
 }
 .button_salon_virtual a {
-  background-color:#62D3A4;
+  background-color:#702E92;
   border-radius: 10px;
   padding: 10px;
   padding-right: 30px;
@@ -188,6 +184,7 @@ html, body {
 }
 .color_pdf {
   color: #62D3A4;
+  font-weight: bold;
 }
 .paragraphe_visio {
   margin-top: 20px;
@@ -214,7 +211,7 @@ html, body {
   margin-bottom: 30px;
 }
 .button_questionnaire_pdf a {
-  background-color:#62D3A4;
+  background-color:#702E92;
   border-radius: 10px;
   padding: 10px;
   padding-right: 30px;
@@ -246,7 +243,7 @@ html, body {
   margin-bottom: 20px;
 }
 .button_questionnaire a {
-  background-color:#62D3A4;
+  background-color:#702E92;
   border-radius: 10px;
   padding: 10px;
   padding-right: 30px;
@@ -275,10 +272,7 @@ footer ul {
 }
 @media screen and (min-width: 768px) {
 .content_title {
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 60px;
 }
 .ville {
   font-size: 45px;
@@ -409,7 +403,7 @@ footer ul {
   margin-top: 40px;
 }
 .button_salon_virtual {
-  padding-top: 80px; 
+  padding-top: 50px; 
   margin-bottom: 60px;
 }
 .button_salon_virtual a {
@@ -522,5 +516,8 @@ footer ul {
   font-size: 20px;
   line-height: 28px;
 }
-  
+.picture_content {
+  padding-left: 60px;
+  padding-right: 60px;
+}
 }
