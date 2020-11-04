@@ -1,12 +1,13 @@
 .content_legal_notice {
-padding-right: 30px;
-padding-left: 30px;
-margin-bottom: 50px;
+margin-right: 60px;
+margin-left: 60px;
+margin-bottom: 60px;
 }
 
 h1 {
+    color: #702E92;
     font-size: 29px;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 p {
@@ -23,10 +24,4 @@ span {
     content: "•";
     color: rgb(66, 33, 66);
     padding-right: 5px;
-}
-
-@media screen and (min-width: 992px) {
-    h1 {
-        font-size: 38px;
-    }
 }
