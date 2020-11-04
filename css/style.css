@@ -1,12 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    /* list-style: none; */
+}
+/* 
+    «list-style: none» entre en conflit avec la mise 
+    en page du body, un «liste-style: none !important;»
+    reste sans effet avec tout au moins firefox
+    «liste-style: none» a était placé dans header et 
+    footer pour cette raison.
+*/
+header li, footer li {
     list-style: none;
 }
-
 html, body {
   background-color: white;
   font-family: 'helvetica-neue', sans-serif;
+  
 }
 
 a {
@@ -849,4 +859,7 @@ footer ul {
     footer a {
         font-size: 24px;
     }
+
 }
+
+
