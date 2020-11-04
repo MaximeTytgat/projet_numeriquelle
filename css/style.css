@@ -26,6 +26,7 @@ h3 {
     margin: 25px 0 0 0;
 } */
 
+
 .links {
     align-items: center;
     background-color: #F1F1F1;
@@ -112,6 +113,10 @@ h3 {
     width: 300px;
 }
 
+.stats {
+    margin-top: 50px;
+}
+
 .logo {
     display: none;
 }
@@ -135,8 +140,7 @@ h3 {
     margin: 30px 0;
 }
 
-.presentation div,
-.goal div:last-child {
+.presentation div {
     margin: 0 auto;
 }
 
@@ -186,6 +190,20 @@ h3 {
     display: none;
 }
 
+.event {
+    text-align: center;
+}
+
+.event .row {
+    width: 150px;
+    background-color: #702E92;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.event h3 {
+    margin-bottom: 25px;
+}
 
 .goal > * {
     width: 80%;
@@ -214,10 +232,17 @@ h3 {
     color: #702E92;
     font-size: 34px;
     position: absolute;
-    top: -13px;
+    top: -5px;
     left: -20px;
 }
 
+.provide {
+    margin-top: 70px;
+}
+
+.flex > div {
+    margin-bottom: 50px;
+}
 
 .edition {
     color: #702E92;
@@ -233,8 +258,12 @@ h3 {
     font-weight: bold;
 }
 
-.img img {
+.img img.stats_img {
     width: 60%;
+}
+
+.img img {
+    width: 100%;
 }
 
 .img {
@@ -272,7 +301,7 @@ h3 {
 
 .stats ul span {
     font-size: 100px;
-    color: #62D3A4;
+    color: #702E92;
     font-weight: normal;
 }
 
@@ -304,6 +333,7 @@ h3 {
 }
 
 .partners {
+    margin-top: 70px;
     text-align: center;
 }
 
@@ -357,6 +387,7 @@ footer ul {
 
     .points li::before {
         font-size: 46px;
+        top: -11px;
         left: -28px;
     }
 
@@ -402,7 +433,10 @@ footer ul {
         width: 90%;
         margin: 0 auto;
     }
-    
+    .goal .separation {
+        width: initial;
+        margin-top: 20px;
+    }
   
     .flex {
         display: flex;
@@ -422,6 +456,9 @@ footer ul {
         margin: 0;
     }
 
+    .provide {
+        margin-top: 70px;
+    }
 
     .provide .flex .img img {
         width: 100%;
@@ -515,6 +552,7 @@ footer ul {
 
     .points li::before {
         font-size: 46px;
+        top: -11px;
         left: -28px;
     }
 
@@ -570,6 +608,10 @@ footer ul {
         margin: 0 auto;
     }
     
+    .goal .separation {
+        width: initial;
+        margin-top: 20px;
+    }
   
     .flex {
         display: flex;
@@ -607,6 +649,10 @@ footer ul {
         font-size: 80px;
     }
     
+    .provide {
+        margin-top: 70px;
+    }
+
     .organisation img {
         width: 70px;
     }
@@ -673,9 +719,14 @@ footer ul {
 
     .points li::before {
         font-size: 46px;
+        top: -11px;
         left: -28px;
     }
 
+    .goal .row {
+        width: 150px;
+        margin: 10px 0 25px 0;
+    }  
 
     .burger,
     .logo_mobile,
@@ -686,6 +737,14 @@ footer ul {
     .links,
     .presentation .container {
         display: flex;
+    }
+
+    .flex > * {
+        width: 100%;
+    }
+
+    .flex:first-child div:first-child > *  {
+        max-width: 400px;
     }
 
     .presentation .container {
