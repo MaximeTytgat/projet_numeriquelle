@@ -17,20 +17,21 @@ a {
 nav a:hover{
   color: #62D3A4;
 }
-
+/* 
 h2 {
     margin: 25px 0;
 }
 
 h3 {
     margin: 25px 0 0 0;
-}
+} */
 
 .links {
     align-items: center;
     background-color: #F1F1F1;
     display: none;
     margin-top: 10px;
+    padding: 0 10%;
 }
 
 .links .line {
@@ -98,10 +99,21 @@ h3 {
     margin: 15px 0 0 15px;
 }
 
+.top_nav .logo_container {
+    display: flex;
+}
+
+.top_nav a {
+    margin: auto 0;
+}
 
 .top_nav .logo,
 .logo_mobile img {
     width: 300px;
+}
+
+.stats {
+    margin-top: 50px;
 }
 
 .logo {
@@ -119,14 +131,15 @@ h3 {
 
 .presentation span {
     color: #702E92;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .presentation img {
     margin: 30px 0;
 }
 
-.presentation div,
-.goal div:last-child {
+.presentation div {
     margin: 0 auto;
 }
 
@@ -166,10 +179,30 @@ h3 {
     background-color: #62D3A4;
 }
 
+
+
+.text h2 {
+    margin-bottom: 25px;
+}
+
 .display_none {
     display: none;
 }
 
+.event {
+    text-align: center;
+}
+
+.event .row {
+    width: 150px;
+    background-color: #702E92;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.event h3 {
+    margin-bottom: 25px;
+}
 
 .goal > * {
     width: 80%;
@@ -198,10 +231,17 @@ h3 {
     color: #702E92;
     font-size: 34px;
     position: absolute;
-    top: -13px;
+    top: -5px;
     left: -20px;
 }
 
+.provide {
+    margin-top: 70px;
+}
+
+.flex > div {
+    margin-bottom: 50px;
+}
 
 .edition {
     color: #702E92;
@@ -217,9 +257,12 @@ h3 {
     font-weight: bold;
 }
 
+.img img.stats_img {
+    width: 60%;
+}
+
 .img img {
-    width: 90%;
-    margin: 30px 0; 
+    width: 100%;
 }
 
 .img {
@@ -257,9 +300,14 @@ h3 {
 
 .stats ul span {
     font-size: 100px;
-    color: #62D3A4;
+    color: #702E92;
     font-weight: normal;
 }
+
+.objectives div:last-child > * {
+    max-width: 550px;
+}
+
 
 .organisation img {
     width: 40px;
@@ -284,6 +332,7 @@ h3 {
 }
 
 .partners {
+    margin-top: 70px;
     text-align: center;
 }
 
@@ -313,6 +362,10 @@ footer ul {
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
+    h1 {
+        width: 290px;
+        margin: 0 auto;
+    }
 
     h2 {
         font-size: 28px;
@@ -327,8 +380,13 @@ footer ul {
         font-size: 18px;
     }
 
+    nav li {
+        font-size: 16px;
+    }
+
     .points li::before {
         font-size: 46px;
+        top: -11px;
         left: -28px;
     }
 
@@ -355,9 +413,6 @@ footer ul {
     .presentation .container .display_none {
         display: block;
     }
-    .top_nav li img {
-        width: 200px;
-    }
 
     .workshop li {
         width: 20%;
@@ -373,11 +428,45 @@ footer ul {
         margin: 0;
     }
 
+    .goal > * {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .goal .separation {
+        width: initial;
+        margin-top: 20px;
+    }
+  
     .flex {
         display: flex;
-        align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
     }
+
+    .flex > * {
+        width: 100%;
+    }
+
+    .flex:first-child * {
+        max-width: 355px;
+    }
+
+    .provide .flex .img {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    .provide {
+        margin-top: 70px;
+    }
+
+    .provide .flex .img img {
+        width: 100%;
+        max-width: none;
+    }
+    .provide:first-child {
+        margin-left: 100px;
+    }
+
     .decription {
         width: 340px;
     }
@@ -394,6 +483,9 @@ footer ul {
         width: 70px;
     }
     
+    .objectives > div {
+        width: 100%;
+    }
 
     .organisation li:first-child { 
         margin-top: 65px;
@@ -416,12 +508,21 @@ footer ul {
         font-size: 18px;
     }
 
+    .container img {
+        width: 100%;
+    }
+
 
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
-   
+    h1 {
+        font-size: 30px;
+        width: 290px;
+        margin: 0 auto;
+    }
+    
 
     h2 {
         font-size: 28px;
@@ -436,8 +537,21 @@ footer ul {
         font-size: 18px;
     }
 
+    .region {
+        margin-top: 15px;
+    }
+
+    .presentation span {
+        font-size: 24px;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
     .points li::before {
         font-size: 46px;
+        top: -11px;
         left: -28px;
     }
 
@@ -464,8 +578,13 @@ footer ul {
     .presentation .container .display_none {
         display: block;
     }
-    .top_nav li img {
-        width: 200px;
+
+    .objectives > div {
+        width: 100%;
+    }
+
+    .top_nav .logo {
+        width: 350px;
     }
 
     .workshop li {
@@ -482,11 +601,41 @@ footer ul {
         margin: 0;
     }
 
+
+    .goal > * {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .goal .separation {
+        width: initial;
+        margin-top: 20px;
+    }
+  
     .flex {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
     }
+
+    .flex > * {
+        width: 100%;
+    }
+
+    .flex:first-child * {
+        max-width: 355px;
+    }
+
+    .provide .flex .img {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    .provide .flex .img img {
+        width: 100%;
+        max-width: none;
+    }
+
     .decription {
         width: 340px;
     }
@@ -499,6 +648,10 @@ footer ul {
         font-size: 80px;
     }
     
+    .provide {
+        margin-top: 70px;
+    }
+
     .organisation img {
         width: 70px;
     }
@@ -530,6 +683,13 @@ footer ul {
 
 @media screen and (min-width: 1201px) {
 
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        width: 340px;
+        margin: 0 auto;
+    }
+
     h2 {
         font-size: 34px;
     }
@@ -540,23 +700,32 @@ footer ul {
 
     p,
     li {
-        font-size: 24px;
+        font-size: 20px;
     }
 
+    .presentation .region {
+        width: 340px;
+        margin-top: 20px;
+    }
 
     .links li {
         padding: 20px 0;
     }
 
     .links li ul {
-        top: 65px;
+        top: 60px;
     }
 
     .points li::before {
         font-size: 46px;
+        top: -11px;
         left: -28px;
     }
 
+    .goal .row {
+        width: 150px;
+        margin: 10px 0 25px 0;
+    }  
 
     .burger,
     .logo_mobile,
@@ -567,6 +736,14 @@ footer ul {
     .links,
     .presentation .container {
         display: flex;
+    }
+
+    .flex > * {
+        width: 100%;
+    }
+
+    .flex:first-child div:first-child > *  {
+        max-width: 400px;
     }
 
     .presentation .container {
@@ -586,10 +763,11 @@ footer ul {
     .presentation .container .display_none{
         width: 90%;
     }
-    .top_nav li img {
-        width: 200px;
-    }
 
+    .objectives > div {
+        width: 100%;
+    }
+    
     .workshop li {
         width: 20%;
         margin: 0;
@@ -642,24 +820,25 @@ footer ul {
     .organisation li:nth-child(3n) {
         height: 160px;
     }
-
-    .goal .objectives div:last-child,
-    .provide .points {
-        width: 500px;
+    .objectives > div {
+        width: 100%;
     }
 
+    
 
     .top_nav a .logo {
-        width: 400  px;
+        width: 400px;
     }
 
     .top_nav li img {
-        width: 275px;
+        width: 200px;
     }
 
-    h1 {
-        font-size: 36px;
-        margin-bottom: 20px;
+    
+
+    .presentation span {
+        font-size: 26px;
+        font-weight: normal;
     }
 
     .workshop h2,
@@ -670,7 +849,4 @@ footer ul {
     footer a {
         font-size: 24px;
     }
-}
-
-
 }
